@@ -762,7 +762,11 @@ module.exports = __webpack_require__(35);
 
 __webpack_require__(9);
 
+<<<<<<< HEAD
 window.Vue = __webpack_require__(46);
+=======
+// window.Vue = require('vue');
+>>>>>>> login-logout
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -770,11 +774,15 @@ window.Vue = __webpack_require__(46);
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
+<<<<<<< HEAD
 Vue.component('example-component', __webpack_require__(49));
+=======
+// Vue.component('example-component', require('./components/ExampleComponent.vue'));
+>>>>>>> login-logout
 
-var app = new Vue({
-  el: '#app'
-});
+// const app = new Vue({
+//     el: '#app'
+// });
 
 /***/ }),
 /* 9 */
@@ -813,11 +821,11 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 var token = document.head.querySelector('meta[name="csrf-token"]');
 
-if (token) {
-  window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
-} else {
-  console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
-}
+// if (token) {
+//     window.axios.defaults.headers.common['X-CSRF-TOKEN'] = token.content;
+// } else {
+//     console.error('CSRF token not found: https://laravel.com/docs/csrf#csrf-x-csrf-token');
+// }
 
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
@@ -31844,6 +31852,7 @@ module.exports = function spread(callback) {
 
 // removed by extract-text-webpack-plugin
 
+<<<<<<< HEAD
 /***/ }),
 /* 36 */,
 /* 37 */,
@@ -43311,5 +43320,7 @@ if (false) {
   }
 }
 
+=======
+>>>>>>> login-logout
 /***/ })
 /******/ ]);
