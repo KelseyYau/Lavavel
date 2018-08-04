@@ -8540,3 +8540,9 @@ input {
   border-bottom: 1px solid #ccc;
 }
 
+.delete-btn {
+  float: left;
+  position: relative;
+  right: 0;
+}
+
