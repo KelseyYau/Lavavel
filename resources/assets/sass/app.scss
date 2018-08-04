@@ -205,3 +205,13 @@ input{
     position: relative;
     right: 0;
 }
+
+//forgot
+.forgot{
+    color: rgb(39, 183, 239);
+    text-decoration: none;
+    &:hover{
+        color: blue;
+        text-decoration: none;
+    }
+}
