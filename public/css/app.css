@@ -8540,3 +8540,19 @@ input {
   border-bottom: 1px solid #ccc;
 }
 
+.delete-btn {
+  float: left;
+  position: relative;
+  right: 0;
+}
+
+.forgot {
+  color: #27b7ef;
+  text-decoration: none;
+}
+
+.forgot:hover {
+  color: blue;
+  text-decoration: none;
+}
+
